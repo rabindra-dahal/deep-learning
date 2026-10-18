@@ -5,7 +5,7 @@ print("=== 1. THE 0.1 REPEATING BINARY TRAP ===")
 a = torch.tensor([0.1], dtype=torch.float32)
 b = torch.tensor([0.1], dtype=torch.float64)
 
-# Print with high decimal precision to reveal hidden rounding
+# Print with high decimal precision to reveal hidden roundings
 print(f"32-bit Float 0.1 looks like: {a.item():.20f}")
 print(f"64-bit Float 0.1 looks like: {b.item():.20f}")
 print(f"Is 0.1 + 0.2 exactly 0.3? {(a + 0.2).item() == 0.3}\n")
