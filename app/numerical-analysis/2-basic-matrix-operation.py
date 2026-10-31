@@ -14,6 +14,10 @@ print("Matrix A:\n", A)
 print("\nMatrix B:\n", B)
 print("-" * 50)
 
+A_diag = torch.diagonal(A)
+print("Diagonal of A:\n", A_diag)
+print("-" * 50)
+
 # ---------------------------------------------------------
 # 1. Basic Arithmetic (Element-wise)
 # ---------------------------------------------------------
