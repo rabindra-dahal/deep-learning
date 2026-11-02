@@ -14,7 +14,7 @@ class MultipleLinearRegressionModel(nn.Module):
     def __init__(self):
         super(MultipleLinearRegressionModel, self).__init__()
         # Input layer (1 feature) -> Hidden layer (e.g., 8 neurons)
-        self.hidden = nn.Linear(in_features=1, out_features=8)
+        self.hidden = nn.Linear(in_features=3, out_features=8)
         # Activation function
         self.activation = nn.ReLU()
         # Hidden layer (8 neurons) -> Output layer (1 feature)
