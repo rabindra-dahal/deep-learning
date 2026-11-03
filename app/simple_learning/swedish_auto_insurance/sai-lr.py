@@ -103,7 +103,7 @@ The metrics show that while the squared loss number looks large due to the mathe
 the actual real-world predictive power of the model is quite solid for a single-variable baseline.
 
 Detailed Metrics Breakdown
-
+==============================================================
 
 Metric	Value	Interpretation
 Final Training Loss (MSE)	1,250.74	The standard optimization target. It drops from 1,262.91 at 
@@ -130,7 +130,8 @@ Test Scenario Validation
                                                                  float precision rounding)
 • Prediction: 105.34 thousand Kronor
 Looking closely at your raw dataset, row 32 contains a real historical entry of 25 claims 
-with a total payment of 69.2. Your model predicted 105.34. This ~36 unit variance aligns perfectly with your RMSE/MAE metrics and highlights how scattered individual insurance payouts can be.
+with a total payment of 69.2. Your model predicted 105.34. This ~36 unit variance aligns perfectly 
+with our RMSE/MAE metrics and highlights how scattered individual insurance payouts can be.
 
 Final Assessment
 
